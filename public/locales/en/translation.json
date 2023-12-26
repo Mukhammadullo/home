@@ -21,9 +21,10 @@
     "increased": "Increased efficiency",
     "innertxt": "Effective projects cost less and are completed on time."
   },
-  "section3":{
-    "title":"It's time to clean up your construction site and take control of your project."
+  "section3": {
+    "title": "It's time to clean up your construction site and take control of your project.",
+    "innertxt": "We care about deliveries to the construction site and the people who count on them",
+    "txt": "We know all about pride from a shiny new building. We also know all about the frustration of trying to complete a project on time and on budget.",
+    "shortTxt": "We're here to help."
   }
-
-
 }

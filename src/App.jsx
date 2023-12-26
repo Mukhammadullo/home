@@ -120,15 +120,17 @@ function App() {
           <h1 className='text-[#212B31] md:text-[40px] w-[80%] text-center'>{t("section3.title")}</h1>
         </div>
 
-
-        <div>
+        {/* innercard */}
+        <div className='flex justify-around'>
           {/* left */}
           <div>
-            
+            <h1 className='text-[#212B31] font-medium w-[80%] text-[60px]'>{t("section3.innertxt")}</h1>
+            <h1>{t("section3.txt")}</h1>
+            <h1>{t("section3.shortTxt")}</h1>
           </div>
           {/* right */}
           <div>
-            <img src='src/assets/Rectangle (1).svg'/>
+            <img src='src/assets/Rectangle (1).svg' />
           </div>
         </div>
 
