@@ -1,12 +1,16 @@
 {
-  "head":{
-        "home": "Home",
-        "about": "About",
-        "product": "Products",
-        "process": "Process",
-        "reliability": "Reliability",
-        "clients": "Clients",
-        "connect": "Connect with us",
-        "order":"Order a demo"
-    }
+  "head": {
+    "home": "Home",
+    "about": "About",
+    "product": "Products",
+    "process": "Process",
+    "reliability": "Reliability",
+    "clients": "Clients",
+    "connect": "Connect with us",
+    "order": "Order a demo"
+  },
+  "section1": {
+    "titletxt": "Smart delivery of materials for complex construction sites",
+    "details":"More details"
+  }
 }

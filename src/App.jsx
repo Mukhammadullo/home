@@ -30,7 +30,7 @@ function App() {
     <>
 
       {/* header */}
-      <header className='flex justify-around  shadow-xl p-[1%] dark:bg-slate-900 dark:text-[#deedc7]'>
+      <header className='flex justify-around  shadow-xl p-[1%] dark:bg-[#230046] dark:text-[#deedc7]'>
         <div>
           <img src='src/assets/logo (1).png' />
         </div>
@@ -57,14 +57,28 @@ function App() {
         <div className='mob:inline-flex md:hidden'>
           <MenuIcon></MenuIcon>
         </div>
-
-
-
         {/* switcher */}
         <Switcher />
       </header>
 
 
+      {/* section1 */}
+      <section className=' dark:bg-[#230046] dark:text-[#deedc7]'>
+
+        <div className='flex flex-col items-center'>
+          <h1 className='mt-[40px] md:text-[50px]  md:w-[60%] mob:w-[70%] font-bold'>{t("section1.titletxt")}</h1>
+
+          <div className='flex'>
+            <Button variant="contained" sx={{ background: "#212B31", marginRight:"10px" }}>{t("head.order")}</Button>
+            <Button variant="outlined">{t("section1.details")}</Button>
+          </div>
+        </div>
+
+        <div className='flex flex-col items-center'>
+          <img src='src/assets/Rectangle (1).png' />
+          <img src='src/assets/Rectangle (2).png' />
+        </div>
+      </section>
 
 
     </>
