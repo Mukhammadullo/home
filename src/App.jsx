@@ -66,7 +66,7 @@ function App() {
       <section className=' dark:bg-[#230046] dark:text-[#deedc7]'>
 
         <div className='flex flex-col items-center'>
-          <h1 className='mt-[40px] md:text-[50px]  md:w-[60%] mob:w-[70%] font-bold'>{t("section1.titletxt")}</h1>
+          <h1 className='mt-[40px] md:text-[50px]  md:w-[60%] mob:w-[70%] font-bold text-center mb-[20px]'>{t("section1.titletxt")}</h1>
 
           <div className='flex'>
             <Button variant="contained" sx={{ background: "#212B31", marginRight: "10px" }}>{t("head.order")}</Button>
@@ -80,7 +80,7 @@ function App() {
         </div>
 
         {/* cards */}
-        <div className='md:flex justify-around mt-[50px]'>
+        <div className='md:flex justify-around '>
           <div className='flex flex-col justify-center items-center'>
             <img src='src/assets/Frame.svg' />
             <p className='m-[10px]'>{t("cards.increased")}</p>
@@ -101,11 +101,14 @@ function App() {
       </section>
 
       {/* section2 */}
-      <section>
+      <section className=' dark:bg-[#230046] dark:text-[#deedc7]'>
 
-        <h1>{t("section2.titletxt")}</h1>
-        <p>{t("section2.innertxt")}</p>
-        <img src='src/assets/Rectangle.svg' />
+        {/* title */}
+        <div className='flex flex-col items-center'>
+          <h1 className='m-[20px] text-[30px] mt-[8%]'>{t("section2.titletxt")}</h1>
+          <p className='text-[#72787D] w-[80%] md:text-[20px] text-center'>{t("section2.innertxt")}</p>
+          <img src='src/assets/Rectangle.svg' />
+        </div>
 
       </section>
 
