@@ -69,7 +69,7 @@ function App() {
           <h1 className='mt-[40px] md:text-[50px]  md:w-[60%] mob:w-[70%] font-bold'>{t("section1.titletxt")}</h1>
 
           <div className='flex'>
-            <Button variant="contained" sx={{ background: "#212B31", marginRight:"10px" }}>{t("head.order")}</Button>
+            <Button variant="contained" sx={{ background: "#212B31", marginRight: "10px" }}>{t("head.order")}</Button>
             <Button variant="outlined">{t("section1.details")}</Button>
           </div>
         </div>
@@ -79,6 +79,17 @@ function App() {
           <img src='src/assets/Rectangle (2).png' />
         </div>
       </section>
+
+      {/* section2 */}
+      <section>
+
+        <h1>{t("section2.titletxt")}</h1>
+        <p>{t("section2.innertxt")}</p>
+
+        <img src='src/assets/Rectangle.svg' />
+
+      </section>
+
 
 
     </>
