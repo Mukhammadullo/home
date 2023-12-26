@@ -80,7 +80,7 @@ function App() {
         </div>
 
         {/* cards */}
-        <div className='md:flex justify-around '>
+        <div className='md:flex justify-around mt-[8%]'>
           <div className='flex flex-col justify-center items-center'>
             <img src='src/assets/Frame.svg' />
             <p className='m-[10px]'>{t("cards.increased")}</p>
@@ -109,9 +109,28 @@ function App() {
           <p className='text-[#72787D] w-[80%] md:text-[20px] text-center'>{t("section2.innertxt")}</p>
           <img src='src/assets/Rectangle.svg' />
         </div>
-
       </section>
 
+
+      {/* section3 */}
+      <section>
+
+        {/* title_section */}
+        <div className='flex justify-center'>
+          <h1 className='text-[#212B31] md:text-[40px] w-[80%] text-center'>{t("section3.title")}</h1>
+        </div>
+
+
+        <div>
+          {/* left */}
+          <div></div>
+          {/* right */}
+          <div>
+            <img src='src/assets/Rectangle (1).svg'/>
+          </div>
+        </div>
+
+      </section>
 
 
     </>
