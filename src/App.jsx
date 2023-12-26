@@ -123,7 +123,9 @@ function App() {
 
         <div>
           {/* left */}
-          <div></div>
+          <div>
+            
+          </div>
           {/* right */}
           <div>
             <img src='src/assets/Rectangle (1).svg'/>
