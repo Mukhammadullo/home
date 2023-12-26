@@ -11,11 +11,14 @@
   },
   "section1": {
     "titletxt": "Smart delivery of materials for complex construction sites",
-    "details":"More details"
+    "details": "More details"
   },
-  "section2":{
-    "titletxt":"Construction is chaos",
-    "innertxt":"Chaos can be an amazing creative force, raising new buildings from dust.Chaos causes accidents, delays and losses. It makes projects stressful and frustrating.This means that you really have no control over the situation."
+  "section2": {
+    "titletxt": "Construction is chaos",
+    "innertxt": "Chaos can be an amazing creative force, raising new buildings from dust.Chaos causes accidents, delays and losses. It makes projects stressful and frustrating.This means that you really have no control over the situation."
+  },
+  "cards": {
+    "increased": "Increased efficiency",
+    "innertxt": "Effective projects cost less and are completed on time."
   }
-
 }

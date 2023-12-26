@@ -78,6 +78,26 @@ function App() {
           <img src='src/assets/Rectangle (1).png' />
           <img src='src/assets/Rectangle (2).png' />
         </div>
+
+        {/* cards */}
+        <div className='md:flex justify-around mt-[50px]'>
+          <div className='flex flex-col justify-center items-center'>
+            <img src='src/assets/Frame.svg' />
+            <p className='m-[10px]'>{t("cards.increased")}</p>
+            <p className='text-[#72787D] w-[60%] m-[10px] text-center'>{t("cards.innertxt")}</p>
+          </div>
+          <div className='flex flex-col justify-center items-center'>
+            <img src='src/assets/Frame (1).svg' />
+            <p className='m-[10px]'>{t("cards.increased")}</p>
+            <p className='text-[#72787D] w-[60%] m-[10px] text-center'>{t("cards.innertxt")}</p>
+          </div>
+          <div className='flex flex-col justify-center items-center'>
+            <img src='src/assets/Frame (2).svg' />
+            <p className='m-[10px]'>{t("cards.increased")}</p>
+            <p className='text-[#72787D] w-[60%] m-[10px] text-center'>{t("cards.innertxt")}</p>
+          </div>
+        </div>
+
       </section>
 
       {/* section2 */}
@@ -85,7 +105,6 @@ function App() {
 
         <h1>{t("section2.titletxt")}</h1>
         <p>{t("section2.innertxt")}</p>
-
         <img src='src/assets/Rectangle.svg' />
 
       </section>
