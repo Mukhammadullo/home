@@ -1,0 +1,12 @@
+{
+  "head":{
+        "home": "Home",
+        "about": "About",
+        "product": "Products",
+        "process": "Process",
+        "reliability": "Reliability",
+        "clients": "Clients",
+        "connect": "Connect with us",
+        "order":"Order a demo"
+    }
+}
