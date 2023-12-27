@@ -26,5 +26,13 @@
     "innertxt": "We care about deliveries to the construction site and the people who count on them",
     "txt": "We know all about pride from a shiny new building. We also know all about the frustration of trying to complete a project on time and on budget.",
     "shortTxt": "We're here to help."
+  },
+  "section5":{
+    "title":"What is StroyKontrol?",
+    "innertitle":"StroyKontrol is an intelligent delivery management system that provides information and control of materials on complex construction sites in real time."
+  },
+  "section6":{
+    "row1Title":"Track delivery throughout the supply chain",
+    "row1txt":"From supplier to subcontractor, you always know where your materials are, making routine waste a thing of the past and reducing on-site accidents."
   }
 }

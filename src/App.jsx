@@ -113,29 +113,67 @@ function App() {
 
 
       {/* section3 */}
-      <section>
+      <section className=' dark:bg-[#230046] pt-[5%]'>
 
         {/* title_section */}
-        <div className='flex justify-center'>
-          <h1 className='text-[#212B31] md:text-[40px] w-[80%] text-center'>{t("section3.title")}</h1>
+        <div className='flex justify-center  mb-[30px]'>
+          <h1 className='text-[#212B31] dark:text-[#deedc7] md:text-[40px] w-[80%] text-center'>{t("section3.title")}</h1>
         </div>
 
         {/* innercard */}
-        <div className='flex justify-around'>
+        <div className='md:flex'>
           {/* left */}
-          <div>
-            <h1 className='text-[#212B31] font-medium w-[80%] text-[60px]'>{t("section3.innertxt")}</h1>
-            <h1>{t("section3.txt")}</h1>
-            <h1>{t("section3.shortTxt")}</h1>
+          <div className='md:w-[50%] m-[10px] flex flex-col items-center justify-center'>
+            <h1 className='text-[#212B31] dark:text-[#deedc7] font-medium w-[80%]  text-[30px] m-[10px]'>{t("section3.innertxt")}</h1>
+            <h1 className='text-[#72787D] dark:text-[#deedc7] w-[80%] text-[20px]'>{t("section3.txt")}</h1>
+            <h1 className='font-bold mt-[20px] dark:text-[#deedc7]'>{t("section3.shortTxt")}</h1>
           </div>
+
           {/* right */}
-          <div>
+          <div className='flex justify-center' >
             <img src='src/assets/Rectangle (1).svg' />
           </div>
         </div>
 
       </section>
 
+
+      {/* section4 */}
+      <section className='dark:bg-[#230046] pt-[4%]'>
+        <div className='flex justify-center'>
+          <img src='src/assets/section 6.svg' />
+        </div>
+      </section>
+
+
+      {/* section5 */}
+      <section className='dark:bg-[#230046] pt-[4%]'>
+        <div className='flex flex-col items-center'>
+          <h1 className='md:text-[40px] mob:text-[25px] dark:text-[#deedc7]'>{t("section5.title")}</h1>
+          <p className='text-[#72787D] text-[20px] md:w-[60%] text-center m-[30px]'>{t("section5.innertitle")}</p>
+        </div>
+      </section>
+
+
+
+      {/* section6 */}
+      <section>
+
+        {/* row1 */}
+        <div className='md:flex justify-center items-center pt-[3%]  dark:bg-[#230046]'>
+          {/* left */}
+          <div className='md:w-[40%]'>
+            <h1 className='dark:text-[#deedc7] md:text-[30px] mob:text-[15px] mob:text-center '>{t("section6.row1Title")}</h1>
+            <p className='text-[#72787D] dark:text-[#deedc7] md:w-[70%] mt-[20px] md:text-[20px] mob:m-[10px]'>{t("section6.row1txt")}</p>
+          </div>
+
+          {/* right */}
+          <div className=' md:w-[30%]'>
+            <img src='src/assets/Rectangle (4).png' />
+          </div>
+          </div>
+
+      </section>
 
     </>
   )
