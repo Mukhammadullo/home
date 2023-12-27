@@ -27,12 +27,41 @@
     "txt": "We know all about pride from a shiny new building. We also know all about the frustration of trying to complete a project on time and on budget.",
     "shortTxt": "We're here to help."
   },
-  "section5":{
-    "title":"What is StroyKontrol?",
-    "innertitle":"StroyKontrol is an intelligent delivery management system that provides information and control of materials on complex construction sites in real time."
+  "section5": {
+    "title": "What is StroyKontrol?",
+    "innertitle": "StroyKontrol is an intelligent delivery management system that provides information and control of materials on complex construction sites in real time."
   },
-  "section6":{
-    "row1Title":"Track delivery throughout the supply chain",
-    "row1txt":"From supplier to subcontractor, you always know where your materials are, making routine waste a thing of the past and reducing on-site accidents."
+  "section6": {
+    "row1Title": "Track delivery throughout the supply chain",
+    "row1txt": "From supplier to subcontractor, you always know where your materials are, making routine waste a thing of the past and reducing on-site accidents.",
+    "row2Title": "Optimize and control your arrival on site",
+    "row2txt": "Delivery vehicles arrive at fixed intervals at pre-designated bays where unloading equipment is ready and waiting for them.",
+    "row3Title": "Take control of your data in real time",
+    "row3txt": "Intelligent reporting gives you the power to make decisions based on how things are right now. No more manual concrete pouring reports or checking 10,000 monthly invoices, it's all available online without any effort."
+  },
+  "section7": {
+    "title": "Delivery made easier",
+    "innertxt": "We take care of all your various deliveries and their many specialized unloading requirements."
+  },
+  "section8": {
+    "row1Card1title": "Concrete",
+    "row1Card1txt": "Concrete deliveries are precisely planned and its condition is monitored, ensuring the fastest possible installation time.",
+    "row1Card2title": "Recycling",
+    "row1Card2txt": "Waste is monitored and sorted, and the fullness of containers is digitally tracked.",
+    "row1Card3title": "Formwork",
+    "row1Card3txt": "All formwork is tracked from arrival to departure and its condition is controlled, minimizing loss and damage.",
+    "row2Card1title": "Prefabricated panels",
+    "row2Card1txt": "Prefabricated panels arrive one at a time, their on-site storage is tracked, and their installation is planned and supervised.",
+    "row2Card2title": "Facades",
+    "row2Card2txt": "The façade elements arrive sequentially, their assembly is controlled and their movement is monitored.",
+    "row2Card3title": "Finishing",
+    "row2Card3txt": "Materials arrive on time, tagged and tracked in detail for installation.",
+    "row3Card1title": "Scaffolding",
+    "row3Card1txt": "Scaffolding is tracked from receipt to storage, use and return, so it's always clear what's in place and where.",
+    "row3Card2title": "Equipment",
+    "row3Card2txt": "Equipment and operators are guaranteed to be available when needed and their operational status is monitored.",
+    "row3Card3title": "Electrical and plumbing",
+    "row3Card3txt": "Deliveries are made in a precise sequence for complex installation, reducing or eliminating the need for storage.",
+    "last": "and all other materials that enter or leave your site"
   }
 }

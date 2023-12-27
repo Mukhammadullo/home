@@ -171,8 +171,169 @@ function App() {
           <div className=' md:w-[30%]'>
             <img src='src/assets/Rectangle (4).png' />
           </div>
+        </div>
+
+
+        {/* row2 */}
+        <div className='md:flex justify-center items-center pt-[3%]  dark:bg-[#230046]'>
+          {/* right */}
+          <div className=' md:w-[30%]'>
+            <img src='src/assets/Rectangle (5).png' />
+          </div>
+          {/* left */}
+          <div className='md:w-[40%]'>
+            <h1 className='dark:text-[#deedc7] md:text-[30px] mob:text-[15px] mob:text-center '>{t("section6.row2Title")}</h1>
+            <p className='text-[#72787D] dark:text-[#deedc7] md:w-[70%] mt-[20px] md:text-[20px] mob:m-[10px]'>{t("section6.row2txt")}</p>
+          </div>
+        </div>
+
+
+        {/* row3 */}
+        <div className='md:flex justify-center items-center pt-[3%]  dark:bg-[#230046]'>
+          {/* left */}
+          <div className='md:w-[40%]'>
+            <h1 className='dark:text-[#deedc7] md:text-[30px] mob:text-[15px] mob:text-center '>{t("section6.row3Title")}</h1>
+            <p className='text-[#72787D] dark:text-[#deedc7] md:w-[70%] mt-[20px] md:text-[20px] mob:m-[10px]'>{t("section6.row3txt")}</p>
           </div>
 
+          {/* right */}
+          <div className=' md:w-[30%]'>
+            <img src='src/assets/Rectangle (6).png' />
+          </div>
+        </div>
+
+      </section>
+
+
+
+      {/* section7 */}
+      <section className='flex flex-col items-center dark:bg-[#230046]'>
+        <h1 className='md:text-[50px] mob:text-[30px] dark:text-[#deedc7] mt-[80px] mb-[20px]'>{t("section7.title")}</h1>
+        <p className='text-[#72787D] dark:text-[#deedc7] text-[20px] md:+w-[40%] text-center'>{t("section7.innertxt")}</p>
+      </section>
+
+
+      {/* section8 */}
+      <section className='dark:bg-[#230046]'>
+
+        {/* row1 */}
+        <div className='md:flex justify-around pt-[4%]'>
+
+          {/* card1 */}
+          <div className='flex md:w-[25%]'>
+            <div className='md:w-[60%]'>
+              <img src='src/assets/Frame (6).png' />
+            </div>
+            <div>
+              <h1 className='font-bold dark:text-[#deedc7] mb-[10px]'>{t("section8.row1Card1title")}</h1>
+              <p className='text-[#72787D] dark:text-[#deedc7]'>{t("section8.row1Card1txt")}</p>
+            </div>
+          </div>
+
+          {/* card2 */}
+          <div className='flex md:w-[25%]'>
+            <div className='md:w-[60%]'>
+              <img src='src/assets/Waste removal.png' />
+            </div>
+            <div>
+              <h1 className='font-bold mb-[10px] dark:text-[#deedc7]'>{t("section8.row1Card2title")}</h1>
+              <p className='text-[#72787D] dark:text-[#deedc7]'>{t("section8.row1Card2txt")}</p>
+            </div>
+          </div>
+
+          {/* card3 */}
+          <div className='flex md:w-[25%]'>
+            <div className='md:w-[60%]'>
+              <img src='src/assets/Formwork.png' />
+            </div>
+            <div>
+              <h1 className='font-bold mb-[10px] dark:text-[#deedc7]'>{t("section8.row1Card3title")}</h1>
+              <p className='text-[#72787D] dark:text-[#deedc7]'>{t("section8.row1Card3txt")}</p>
+            </div>
+          </div>
+
+        </div>
+
+        {/* row2 */}
+        <div className='md:flex justify-around mt-[4%]'>
+
+          {/* card1 */}
+          <div className='flex md:w-[25%]'>
+            <div className='md:w-[60%]'>
+              <img src='src/assets/Precasts.png' />
+            </div>
+            <div>
+              <h1 className='font-bold mb-[10px] dark:text-[#deedc7]'>{t("section8.row2Card1title")}</h1>
+              <p className='text-[#72787D] dark:text-[#deedc7]'>{t("section8.row2Card1txt")}</p>
+            </div>
+          </div>
+
+          {/* card2 */}
+          <div className='flex md:w-[25%]'>
+            <div className='md:w-[60%]'>
+              <img src='src/assets/Facades.svg' />
+            </div>
+            <div>
+              <h1 className='font-bold mb-[10px] dark:text-[#deedc7]'>{t("section8.row2Card1title")}</h1>
+              <p className='text-[#72787D] dark:text-[#deedc7]'>{t("section8.row2Card1txt")}</p>
+            </div>
+          </div>
+
+          {/* card3 */}
+          <div className='flex md:w-[25%]'>
+            <div className='md:w-[60%]'>
+              <img src='src/assets/Fit-out.png' />
+            </div>
+            <div>
+              <h1 className='font-bold mb-[10px] dark:text-[#deedc7]'>{t("section8.row2Card3title")}</h1>
+              <p className='text-[#72787D] dark:text-[#deedc7]'>{t("section8.row2Card3txt")}</p>
+            </div>
+          </div>
+
+        </div>
+
+
+        {/* row3 */}
+        <div className='md:flex justify-around mt-[4%]'>
+
+          {/* card1 */}
+          <div className='flex md:w-[25%]'>
+            <div className='md:w-[60%]'>
+              <img src='src/assets/Scaffolding.png' />
+            </div>
+            <div>
+              <h1 className='font-bold mb-[10px] dark:text-[#deedc7]'>{t("section8.row3Card1title")}</h1>
+              <p className='text-[#72787D] dark:text-[#deedc7]'>{t("section8.row3Card1txt")}</p>
+            </div>
+          </div>
+
+
+          {/* card2 */}
+          <div className='flex md:w-[25%]'>
+            <div className='md:w-[60%]'>
+              <img src='src/assets/Frame (7).png' />
+            </div>
+            <div>
+              <h1 className='font-bold mb-[10px] dark:text-[#deedc7]'>{t("section8.row3Card2title")}</h1>
+              <p className='text-[#72787D] dark:text-[#deedc7]'>{t("section8.row3Card2txt")}</p>
+            </div>
+          </div>
+
+
+          
+          {/* card3 */}
+          <div className='flex md:w-[25%]'>
+            <div className='md:w-[60%]'>
+              <img src='src/assets/MEP.png' />
+            </div>
+            <div>
+              <h1 className='font-bold mb-[10px] dark:text-[#deedc7]'>{t("section8.row3Card3title")}</h1>
+              <p className='text-[#72787D] dark:text-[#deedc7]'>{t("section8.row3Card3txt")}</p>
+            </div>
+          </div>
+
+        </div>
+        <p className='text-center  dark:text-[#deedc7] p-[3%]'>{t("section8.last")}</p>
       </section>
 
     </>
