@@ -79,24 +79,43 @@
     "btntxt": "More details"
   },
   "section11": {
-    "cardtoptitle":"Built for construction",
-    "txt1":"Clearly visible in any conditions",
-    "txt2":"Whether it's sunny or dark, there's a screen mode to suit you",
-    "txt3":"International language support",
-    "txt4":"People from all over the world work on modern construction sites. Language is not a problem for StroyKontrol.",
-    "txt5":"Works on any device - mobile phone, tablet, laptop",
-    "txt6":"People in different jobs use different devices. StroyKontrol automatically configures itself according to requirements. You can also project live project dashboards onto wall screens."
+    "cardtoptitle": "Built for construction",
+    "txt1": "Clearly visible in any conditions",
+    "txt2": "Whether it's sunny or dark, there's a screen mode to suit you",
+    "txt3": "International language support",
+    "txt4": "People from all over the world work on modern construction sites. Language is not a problem for StroyKontrol.",
+    "txt5": "Works on any device - mobile phone, tablet, laptop",
+    "txt6": "People in different jobs use different devices. StroyKontrol automatically configures itself according to requirements. You can also project live project dashboards onto wall screens."
   },
-  "section12":{
-    "cardleftTitle":"How to work with us",
-    "card1leftTxt":"It’s easy to get started with StroyKontrol, just order a demo version.",
-    "txt1":"Order a demo",
-    "txt2":"You will see a presentation that explains in detail how StroyKontrol works to solve construction logistics problems in complex projects like yours.",
-    "txt3":"Approval of the transaction",
-    "txt4":"We will discuss your construction project and propose a StroyControl implementation that perfectly suits your needs and will provide value to you.",
-    "txt5":"Preparation",
-    "txt6":"We fully train your team on how to use the system via online video tutorials and provide ongoing comprehensive support.",
-    "txt7":"Implementation and integration",
-    "txt8":"We customize the software to accurately model your site, and then help you integrate it with Business Intelligence software to generate powerful new insights." 
+  "section12": {
+    "cardleftTitle": "How to work with us",
+    "card1leftTxt": "It’s easy to get started with StroyKontrol, just order a demo version.",
+    "txt1": "Order a demo",
+    "txt2": "You will see a presentation that explains in detail how StroyKontrol works to solve construction logistics problems in complex projects like yours.",
+    "txt3": "Approval of the transaction",
+    "txt4": "We will discuss your construction project and propose a StroyControl implementation that perfectly suits your needs and will provide value to you.",
+    "txt5": "Preparation",
+    "txt6": "We fully train your team on how to use the system via online video tutorials and provide ongoing comprehensive support.",
+    "txt7": "Implementation and integration",
+    "txt8": "We customize the software to accurately model your site, and then help you integrate it with Business Intelligence software to generate powerful new insights."
+  },
+  "section16": {
+    "title": "Ready to optimize delivery logistics for your complex project?"
+  },
+  "section17": {
+    "city": "Moscow",
+    "product": "Our product",
+    "process": "Process",
+    "products": "Products",
+    "service": "Service",
+    "clients": "Clients",
+    "reliability": "Reliability",
+    "company": "Company",
+    "about": "About",
+    "connect":"Connect with us"
+  },
+  "footer":{
+    "txt":"© 2020 StroyKontrol, All rights reserved.",
+    "t2":"Privacy Policy"
   }
 }

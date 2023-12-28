@@ -437,26 +437,102 @@ function App() {
       </section>
 
       {/* section12 */}
-      <section>
-        {/* left */}
-        <div>
-          <h1>{t("section12.cardleftTitle")}</h1>
-          <p>{t("section12.card1leftTxt")}</p>
-          <img src='src/assets/Rectangle (8).png' />
-        </div>
-        {/* right */}
+      <section className='dark:bg-[#230046]'>
 
-        <div>
-          <h1>{t("section12.txt1")}</h1>
-          <h1>{t("section12.txt2")}</h1>
-          <h1>{t("section12.txt3")}</h1>
-          <h1>{t("section12.txt4")}</h1>
-          <h1>{t("section12.txt5")}</h1>
-          <h1>{t("section12.txt6")}</h1>
-          <h1>{t("section12.txt7")}</h1>
-          <h1>{t("section12.txt8")}</h1>
+        <div className='md:flex p-[8%]'>
+
+          {/* left */}
+          <div className='md:w-[50%]'>
+            <h1 className='text-[30px] m-[20px]'>{t("section12.cardleftTitle")}</h1>
+            <p>{t("section12.card1leftTxt")}</p>
+            <img src='src/assets/Rectangle (8).png' />
+          </div>
+          {/* right */}
+
+          <div className='md:w-[50%]'>
+            <h1 className='mt-[30px] text-[20px]'>{t("section12.txt1")}</h1>
+            <h1 className='text-[#72787D]'>{t("section12.txt2")}</h1>
+            <h1 className='mt-[30px] text-[20px]'>{t("section12.txt3")}</h1>
+            <h1 className='text-[#72787D]'>{t("section12.txt4")}</h1>
+            <h1 className='mt-[30px] text-[20px]'>{t("section12.txt5")}</h1>
+            <h1 className='text-[#72787D]'>{t("section12.txt6")}</h1>
+            <h1 className='mt-[30px] text-[20px]'>{t("section12.txt7")}</h1>
+            <h1 className='text-[#72787D]'>{t("section12.txt8")}</h1>
+            <Button variant="contained" sx={{ background: "white", marginRight: "10px", color: "black", marginTop: "40px" }}>{t("head.order")}</Button>
+            <Button variant="outlined" sx={{ marginTop: "40px" }}  >{t("section1.details")}</Button>
+
+          </div>
+
         </div>
       </section>
+
+
+
+      {/* section13 */}
+      <section className='dark:bg-[#230046]'>
+        <div className='flex justify-center'>
+          <img src='src/assets/Group 75.png' />
+        </div>
+      </section>
+
+
+      {/* section14 */}
+      <section className='flex justify-center p-[4%] dark:bg-[#230046] '>
+
+        <div className='bg-[#FFD042]  rounded-[12px] w-[50%] p-[6%]'>
+          <h1>{t("section16.title")}</h1>
+          <Button variant="contained" sx={{ background: "white", marginRight: "10px", color: "black", marginTop: "40px" }}>{t("head.order")}</Button>
+          <Button variant="outlined" sx={{ marginTop: "40px" }}  >{t("section1.details")}</Button>
+
+        </div>
+
+      </section>
+
+
+      {/* section15 */}
+      <section className='p-[4%] dark:bg-[#230046]  dark:text-[white] '>
+
+
+        <div className='mob:flex flex-wrap md:flex justify-around'>
+          {/* ul1 */}
+          <ul>
+            <li><img src='src/assets/logo (1).png' /></li>
+            <li>{t("section17.city")}</li>
+            <li>Пресненская наб., 88, оф. 527</li>
+            <li>info@stroycontrol.ru</li>
+          </ul>
+
+          {/* ul2 */}
+          <ul>
+            <li className='mb-[10px] font-bold'>{t("section17.product")}</li>
+            <li>{t("section17.process")}</li>
+            <li>{t("section17.products")}</li>
+          </ul>
+
+          {/* ul2 */}
+          <ul>
+            <li className='mb-[10px] font-bold'>{t("section17.service")}</li>
+            <li>{t("section17.clients")}</li>
+            <li>{t("section17.reliability")}</li>
+          </ul>
+          {/* ul3 */}
+          <ul>
+            <li className='mb-[10px] font-bold'>{t("section17.company")}</li>
+            <li>{t("section17.about")}</li>
+            <li>{t("section17.connect")}</li>
+          </ul>
+
+        </div>
+
+
+      </section>
+
+
+      {/* footer */}
+      <footer className='flex justify-around dark:bg-[#230046]  dark:text-[white] p-[2%]'>
+        <p>{t("footer.txt")}</p>
+        <p>{t("footer.t2")}</p>
+      </footer>
 
 
     </>
