@@ -447,7 +447,14 @@ function App() {
         {/* right */}
 
         <div>
-          <h1></h1>
+          <h1>{t("section12.txt1")}</h1>
+          <h1>{t("section12.txt2")}</h1>
+          <h1>{t("section12.txt3")}</h1>
+          <h1>{t("section12.txt4")}</h1>
+          <h1>{t("section12.txt5")}</h1>
+          <h1>{t("section12.txt6")}</h1>
+          <h1>{t("section12.txt7")}</h1>
+          <h1>{t("section12.txt8")}</h1>
         </div>
       </section>
 
