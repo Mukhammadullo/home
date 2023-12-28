@@ -74,8 +74,17 @@
     "card3title": "Improved impact on society",
     "card3txt": "Traffic problems and noise pollution are reduced, improving the lives of the local community. Improved material handling and storage means workers are also better protected."
   },
-  "section10":{
-    "txt":"The reliable design of StroyKontrol is included as standard.",
-    "btntxt":"More details"  
+  "section10": {
+    "txt": "The reliable design of StroyKontrol is included as standard.",
+    "btntxt": "More details"
+  },
+  "section11": {
+    "cardtoptitle":"Built for construction",
+    "txt1":"Clearly visible in any conditions",
+    "txt2":"Whether it's sunny or dark, there's a screen mode to suit you",
+    "txt3":"International language support",
+    "txt4":"People from all over the world work on modern construction sites. Language is not a problem for StroyKontrol.",
+    "txt5":"Works on any device - mobile phone, tablet, laptop",
+    "txt6":"People in different jobs use different devices. StroyKontrol automatically configures itself according to requirements. You can also project live project dashboards onto wall screens."
   }
 }

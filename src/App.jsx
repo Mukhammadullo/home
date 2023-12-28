@@ -376,13 +376,65 @@ function App() {
       </section>
 
       {/* section10 */}
-      <section className='p-[5%]'>
+      <section className='p-[5%] dark:bg-[#230046]'>
 
-        <div className='md:flex bg-[#F6F8F9] p-[4%] rounded-[12px]'>
+        <div className='md:flex bg-[#F6F8F9] p-[4%] rounded-[12px] dark:bg-[#230046]'>
           <img src='src/assets/Frame (11).png' />
-          <h1 className='ml-[10px] mr-[20px]'>{t("section10.txt")}</h1>
+          <h1 className='ml-[10px] mr-[20px] dark:text-[white]'>{t("section10.txt")}</h1>
           <Button variant="outlined">{t("section1.details")}</Button>
         </div>
+      </section>
+
+
+
+      {/* section11 */}
+      <section className='bg-slate-900'>
+        {/* top */}
+        <div className='md:flex bg-slate-900 justify-around items-center text-[white]'>
+          {/* left */}
+          <div className='m-[4%] p-[2%]'>
+            <h1 className='m-[4%] text-[20px]'>{t("section11.cardtoptitle")}</h1>
+            <p className='m-[10px] text-[18px]'>{t("section11.txt1")}</p>
+            <p className='w-[70%]'>{t("section11.txt2")}</p>
+            <p className='m-[10px] text-[18px]'>{t("section11.txt3")}</p>
+            <p className='w-[70%]'>{t("section11.txt4")}</p>
+            <p className='m-[10px] text-[18px]'>{t("section11.txt5")}</p>
+            <p className='w-[70%]'>{t("section11.txt6")}</p>
+            <Button variant="contained" sx={{ background: "white", marginRight: "10px", color:"black", marginTop:"40px" }}>{t("head.order")}</Button>
+            <Button variant="outlined" sx={{ marginTop: "40px" }}  >{t("section1.details")}</Button>
+          </div>
+          {/* right */}
+          <div className='dark:bg-slate-900'>
+            <img src='src/assets/Rectangle (7).png' />
+          </div>
+        </div>
+
+        {/* cards */}
+        <div className='md:flex justify-around pt-[4%]'>
+
+          {/* card1 */}
+          <div className='md:w-[26%] flex flex-col items-center'>
+            <img src='src/assets/Frame (8).png' />
+            <h1 className='font-bold p-[10px] dark:text-[white]'>{t("section9.card1title")}</h1>
+            <p className='text-[#72787D] text-center'>{t("section9.card1txt")}</p>
+          </div>
+
+          {/* card2 */}
+          <div className='md:w-[26%] flex flex-col items-center'>
+            <img src='src/assets/Frame (9).png' />
+            <h1 className='font-bold p-[10px] dark:text-[white]'>{t("section9.card2title")}</h1>
+            <p className='text-[#72787D] text-center'>{t("section9.card2txt")}</p>
+          </div>
+
+          {/* card3 */}
+          <div className='md:w-[26%] flex flex-col items-center'>
+            <img src='src/assets/Frame (10).png' />
+            <h1 className='font-bold p-[10px] dark:text-[white]'>{t("section9.card3title")}</h1>
+            <p className='text-[#72787D] text-center'>{t("section9.card3txt")}</p>
+          </div>
+
+        </div>
+
       </section>
 
     </>
