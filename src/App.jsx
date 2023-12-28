@@ -373,8 +373,18 @@ function App() {
           </div>
 
         </div>
-
       </section>
+
+      {/* section10 */}
+      <section className='p-[5%]'>
+
+        <div className='md:flex bg-[#F6F8F9] p-[4%] rounded-[12px]'>
+          <img src='src/assets/Frame (11).png' />
+          <h1 className='ml-[10px] mr-[20px]'>{t("section10.txt")}</h1>
+          <Button variant="outlined">{t("section1.details")}</Button>
+        </div>
+      </section>
+
     </>
   )
 }

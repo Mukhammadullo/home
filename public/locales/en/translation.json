@@ -73,5 +73,9 @@
     "card2txt": "Waste sorting is simplified, waste disposal is automated, and damaged materials are reused when necessary, reducing costs and encouraging recycling and reuse.",
     "card3title": "Improved impact on society",
     "card3txt": "Traffic problems and noise pollution are reduced, improving the lives of the local community. Improved material handling and storage means workers are also better protected."
+  },
+  "section10":{
+    "txt":"The reliable design of StroyKontrol is included as standard.",
+    "btntxt":"More details"  
   }
 }
