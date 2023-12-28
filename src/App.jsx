@@ -400,7 +400,7 @@ function App() {
             <p className='w-[70%]'>{t("section11.txt4")}</p>
             <p className='m-[10px] text-[18px]'>{t("section11.txt5")}</p>
             <p className='w-[70%]'>{t("section11.txt6")}</p>
-            <Button variant="contained" sx={{ background: "white", marginRight: "10px", color:"black", marginTop:"40px" }}>{t("head.order")}</Button>
+            <Button variant="contained" sx={{ background: "white", marginRight: "10px", color: "black", marginTop: "40px" }}>{t("head.order")}</Button>
             <Button variant="outlined" sx={{ marginTop: "40px" }}  >{t("section1.details")}</Button>
           </div>
           {/* right */}
@@ -434,8 +434,23 @@ function App() {
           </div>
 
         </div>
-
       </section>
+
+      {/* section12 */}
+      <section>
+        {/* left */}
+        <div>
+          <h1>{t("section12.cardleftTitle")}</h1>
+          <p>{t("section12.card1leftTxt")}</p>
+          <img src='src/assets/Rectangle (8).png' />
+        </div>
+        {/* right */}
+
+        <div>
+          <h1></h1>
+        </div>
+      </section>
+
 
     </>
   )
