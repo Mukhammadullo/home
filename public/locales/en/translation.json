@@ -63,5 +63,15 @@
     "row3Card3title": "Electrical and plumbing",
     "row3Card3txt": "Deliveries are made in a precise sequence for complex installation, reducing or eliminating the need for storage.",
     "last": "and all other materials that enter or leave your site"
+  },
+  "section9": {
+    "title": "Reliability",
+    "innertxt": "With reliable construction, everyone wins - municipalities fulfill their responsibilities to citizens, investors receive certification for their projects, and general contractors gain increased reputation.",
+    "card1title": "Reduced pollution",
+    "card1txt": "By optimizing logistics, fewer trips are required, resulting in lower CO2 emissions. CO2 emissions are monitored, allowing you to set targets and make tangible improvements.",
+    "card2title": "Improved waste management",
+    "card2txt": "Waste sorting is simplified, waste disposal is automated, and damaged materials are reused when necessary, reducing costs and encouraging recycling and reuse.",
+    "card3title": "Improved impact on society",
+    "card3txt": "Traffic problems and noise pollution are reduced, improving the lives of the local community. Improved material handling and storage means workers are also better protected."
   }
 }

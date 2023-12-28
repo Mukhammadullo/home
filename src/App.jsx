@@ -320,7 +320,7 @@ function App() {
           </div>
 
 
-          
+
           {/* card3 */}
           <div className='flex md:w-[25%]'>
             <div className='md:w-[60%]'>
@@ -336,6 +336,45 @@ function App() {
         <p className='text-center  dark:text-[#deedc7] p-[3%]'>{t("section8.last")}</p>
       </section>
 
+
+
+      {/* section9 */}
+      <section className='dark:bg-[#230046]'>
+
+        {/* title */}
+        <div className='flex flex-col justify-center items-center'>
+          <h1 className='text-[40px] dark:text-[white]'>{t("section9.title")}</h1>,
+          <p className='text-[#72787D] text-[20px] w-[70%] text-center'>{t("section9.innertxt")}</p>
+        </div>
+
+
+        {/* cards */}
+        <div className='md:flex justify-around pt-[4%]'>
+
+          {/* card1 */}
+          <div className='md:w-[26%] flex flex-col items-center'>
+            <img src='src/assets/Frame (8).png' />
+            <h1 className='font-bold p-[10px] dark:text-[white]'>{t("section9.card1title")}</h1>
+            <p className='text-[#72787D] text-center'>{t("section9.card1txt")}</p>
+          </div>
+
+          {/* card2 */}
+          <div className='md:w-[26%] flex flex-col items-center'>
+            <img src='src/assets/Frame (9).png' />
+            <h1 className='font-bold p-[10px] dark:text-[white]'>{t("section9.card2title")}</h1>
+            <p className='text-[#72787D] text-center'>{t("section9.card2txt")}</p>
+          </div>
+
+          {/* card3 */}
+          <div className='md:w-[26%] flex flex-col items-center'>
+            <img src='src/assets/Frame (10).png' />
+            <h1 className='font-bold p-[10px] dark:text-[white]'>{t("section9.card3title")}</h1>
+            <p className='text-[#72787D] text-center'>{t("section9.card3txt")}</p>
+          </div>
+
+        </div>
+
+      </section>
     </>
   )
 }
